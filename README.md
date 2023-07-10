@@ -7,7 +7,7 @@
     <br>
   </h1>
     <a href="https://www.youtube.com/watch?v=axRjM_d8mz4">
-      <img src="https://github.com/dasturbek/video_audio_player_and_converter_/blob/master/img.png" width="100" align="center">
+      <img src="https://github.com/dasturbek/video_audio_player_and_converter_/blob/master/img.png" width=80% align="center"><br>
       Click here and watching video of using video_audio_converter
     </a>
     
