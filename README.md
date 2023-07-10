@@ -1,6 +1,7 @@
 <div align="center">
   A video:
-```youtube-embed
+```
+youtube-embed
 {
    "width": "560",
    "height": "315",
