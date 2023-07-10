@@ -1,8 +1,5 @@
 <div align="center">
-  <video width="320" height="240" controls>
-  <source src="https://youtu.be/axRjM_d8mz4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+(https://youtu.be/axRjM_d8mz4)
   <br>
   <br>
   <p>
