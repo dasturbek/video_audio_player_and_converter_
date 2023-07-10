@@ -1,6 +1,16 @@
 <div align="center">
-  [![Rick Astley - Never Gonna Give You Up (Official Music Video)](https://youtube-md.vercel.app/dQw4w9WgXcQ/640/360)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-(https://youtu.be/axRjM_d8mz4)
+  A video:
+```youtube-embed
+{
+   "width": "560",
+   "height": "315",
+   "src": "https://youtu.be/axRjM_d8mz4",
+   "title": "YouTube video player",
+   "frameborder": "0",
+   "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+   "allowfullscreen": true
+}
+```
   <br>
   <br>
   <p>
