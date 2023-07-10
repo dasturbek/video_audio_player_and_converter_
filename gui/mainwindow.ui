@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>909</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Converter</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>qrc/dasturbek.png</normaloff>qrc/dasturbek.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="1" column="0">
+     <widget class="QWidget" name="leftmenu" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>222</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>222</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#leftmenu{
+	background-color: rgb(234, 234, 234)
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="19" column="0" colspan="2">
+        <widget class="QWidget" name="fotter" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>60</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QWidget" name="widget" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QToolButton" name="telegramm">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"> .QToolButton {
+	text-align:center;
+	background-color: rgba(110, 124, 255, 0);
+}
+ .QToolButton:hover {
+	border: 1px  solid rgb(26, 109, 255, 0.9);
+	background-color: #fff;
+	border-raduis:5px
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>qrc/google.png</normaloff>qrc/google.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="facebook">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"> .QToolButton {
+	text-align:center;
+	background-color: rgba(110, 124, 255, 0);
+}
+ .QToolButton:hover {
+	border: 1px  solid rgb(26, 109, 255, 0.9);
+	background-color: #fff;
+	border-raduis:5px
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>qrc/youtube.png</normaloff>qrc/youtube.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="dasturbek">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"> .QToolButton {
+	text-align:center;
+	background-color: rgba(110, 124, 255, 0);
+}
+ .QToolButton:hover {
+	border: 1px  solid rgb(26, 109, 255, 0.9);
+	background-color: #fff;
+	border-raduis:5px
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>qrc/twitter.png</normaloff>qrc/twitter.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="Google">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"> .QToolButton {
+	text-align:center;
+	background-color: rgba(110, 124, 255, 0);
+}
+ .QToolButton:hover {
+	border: 1px  solid rgb(26, 109, 255, 0.9);
+	background-color: #fff;
+	border-raduis:5px
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>qrc/instagram.png</normaloff>qrc/instagram.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>25</width>
+                 <height>25</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Copyright 2022-2023&lt;br&gt;by &lt;a href=&quot;https://dasturbek.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;dasturbek.com&lt;/span&gt;&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QPushButton" name="video_player">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250, 237));
+}</string>
+         </property>
+         <property name="text">
+          <string>Video Player</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/play_video.png</normaloff>qrc/play_video.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="0" colspan="2">
+        <widget class="QPushButton" name="about">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250, 237));
+}</string>
+         </property>
+         <property name="text">
+          <string>About</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/about.png</normaloff>qrc/about.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QPushButton" name="video_converter">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+ background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, 
+ y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250,                                        237));
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+border-left: 3px solid rgb(85, 85, 85)
+}
+.QPushButton:hover{
+  background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250, 237));
+}</string>
+         </property>
+         <property name="text">
+          <string>Video Converter</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/video_converter.png</normaloff>qrc/video_converter.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QPushButton" name="dashboard">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+}</string>
+         </property>
+         <property name="text">
+          <string>DASTURBEK</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/drag_down.png</normaloff>qrc/drag_down.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0" colspan="2">
+        <widget class="QPushButton" name="settings">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250, 237));
+}</string>
+         </property>
+         <property name="text">
+          <string>Settings</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/settings.png</normaloff>qrc/settings.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QPushButton" name="audio_player">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250, 237));
+}</string>
+         </property>
+         <property name="text">
+          <string>Music Player</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/play_music.png</normaloff>qrc/play_music.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="styleSheet">
+          <string notr="true">#groupBox_4{
+margin:15px 0 0 0;
+text-aligin: center;
+border-top: 1px solid rgb(202, 202, 202)
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QPushButton" name="audio_converter">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  background-color: qlineargradient(spread:pad, x1:0, y1:0.489, x2:0.511636, y2:0.500318, stop:0 rgba(193, 193, 193, 244), stop:1 rgba(250, 250, 250, 237));
+}</string>
+         </property>
+         <property name="text">
+          <string>Audio Converter</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>qrc/audio_converter.png</normaloff>qrc/audio_converter.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="0" colspan="2">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QWidget" name="board" native="true">
+      <property name="styleSheet">
+       <string notr="true">.QWidget{
+margin:0;
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="soxta">
+          <layout class="QGridLayout" name="_2">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>qrc/background.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="audio_converter_page">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="2" column="0">
+            <widget class="QListWidget" name="audio_converter_listwidget">
+             <property name="styleSheet">
+              <string notr="true">border:none;
+border-top:1px solid rgb(179, 179, 179);
+border-bottom:1px solid rgb(179, 179, 179);</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QFrame" name="frame_7">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_13">
+              <property name="leftMargin">
+               <number>2</number>
+              </property>
+              <property name="topMargin">
+               <number>3</number>
+              </property>
+              <property name="rightMargin">
+               <number>2</number>
+              </property>
+              <property name="bottomMargin">
+               <number>10</number>
+              </property>
+              <property name="spacing">
+               <number>4</number>
+              </property>
+              <item row="0" column="1">
+               <widget class="QPushButton" name="music_out_path">
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::RightToLeft</enum>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+  margin:0 0 0 0;
+background-color: rgba(15, 7, 44, 0.1);
+border: 1px  solid rgb(26, 109, 255, 0.9);
+border-radius: 4px;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.3);
+}</string>
+                </property>
+                <property name="text">
+                 <string notr="true">...</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/convert_path.png</normaloff>qrc/convert_path.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>25</width>
+                  <height>25</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="horizontalSpacer_9">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_2">
+                <property name="styleSheet">
+                 <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  margin:0 0 0 0;</string>
+                </property>
+                <property name="text">
+                 <string>Output Path</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_6">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>55</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>55</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_10">
+              <property name="leftMargin">
+               <number>7</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>7</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="horizontalSpacing">
+               <number>4</number>
+              </property>
+              <property name="verticalSpacing">
+               <number>0</number>
+              </property>
+              <item row="0" column="8">
+               <spacer name="horizontalSpacer_8">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="10">
+               <widget class="QPushButton" name="finished_audio">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  margin:0 0 0 0;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Finished</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="14">
+               <widget class="QPushButton" name="stop_con_audio">
+                <property name="cursor">
+                 <cursorShape>ArrowCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 1px;
+  margin:0 0 0 0;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QPushButton" name="music_converter_add_file">
+                <property name="maximumSize">
+                 <size>
+                  <width>140</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+  margin:0 0 0 0;
+background-color: rgba(15, 7, 44, 0.1);
+border: 1px  solid rgb(26, 109, 255, 0.9);
+border-radius: 4px;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.3);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Add Audio File</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/add_file_convereter.png</normaloff>qrc/add_file_convereter.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>25</width>
+                  <height>25</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="9">
+               <widget class="QPushButton" name="converting_audio">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Segoe UI</family>
+                  <pointsize>-1</pointsize>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  margin:0 0 0 0;
+  border-bottom: 3px solid rgb(85, 85, 85);
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Converting</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="11">
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="12">
+               <widget class="QPushButton" name="clear_finish_audio">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="MinimumExpanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>100</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgb(120, 140, 140,0);
+  border: none;
+  color: rgba(26, 109, 255, 0.7);
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  color: rgb(26, 109, 255);
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Clear All</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/clear.png</normaloff>qrc/clear.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>24</width>
+                  <height>24</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="15">
+               <widget class="QPushButton" name="run_con_audio">
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+background-color: rgba(15, 7, 44, 0.1);
+border: 1px  solid rgba(26, 109, 255, 0.9);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  margin:0 0 0 0;
+border-radius: 4px;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.3);
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/start.png</normaloff>qrc/start.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QListWidget" name="finished_audio_list">
+             <property name="styleSheet">
+              <string notr="true">border:none;
+border-top:1px solid rgb(179, 179, 179);
+border-bottom:1px solid rgb(179, 179, 179);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="video_converter_page">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_15">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="3" column="0">
+            <widget class="QFrame" name="frame_9">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_16">
+              <property name="leftMargin">
+               <number>2</number>
+              </property>
+              <property name="topMargin">
+               <number>3</number>
+              </property>
+              <property name="rightMargin">
+               <number>2</number>
+              </property>
+              <property name="bottomMargin">
+               <number>10</number>
+              </property>
+              <property name="spacing">
+               <number>4</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_3">
+                <property name="styleSheet">
+                 <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  margin:0 0 0 0;</string>
+                </property>
+                <property name="text">
+                 <string>Output Path</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="horizontalSpacer_10">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <widget class="QPushButton" name="video_out_path">
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::RightToLeft</enum>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+  margin:0 0 0 0;
+background-color: rgba(15, 7, 44, 0.1);
+border: 1px  solid rgb(26, 109, 255, 0.9);
+border-radius: 4px;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.3);
+}</string>
+                </property>
+                <property name="text">
+                 <string notr="true">...</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/convert_path.png</normaloff>qrc/convert_path.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>25</width>
+                  <height>25</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QListWidget" name="video_converter_listwidget">
+             <property name="font">
+              <font>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none;
+border-top:1px solid rgb(179, 179, 179);
+border-bottom:1px solid rgb(179, 179, 179);</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_8">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>55</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>55</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_14">
+              <property name="leftMargin">
+               <number>7</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>7</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>4</number>
+              </property>
+              <item row="0" column="9">
+               <widget class="QPushButton" name="finshed_video">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  margin:0 0 0 0;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Finished</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="13">
+               <widget class="QPushButton" name="stop_con_video">
+                <property name="cursor">
+                 <cursorShape>ArrowCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 1px;
+  margin:0 0 0 0;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="11">
+               <widget class="QPushButton" name="clear_finish_video">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="MinimumExpanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>100</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgb(120, 140, 140,0);
+  border: none;
+  color: rgba(26, 109, 255, 0.7);
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover{
+  color: rgb(26, 109, 255);
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Clear All</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/clear.png</normaloff>qrc/clear.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>24</width>
+                  <height>24</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="7">
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::MinimumExpanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="8">
+               <widget class="QPushButton" name="converting_video">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>-1</pointsize>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  margin:0 0 0 0;
+  border-bottom: 3px solid rgb(85, 85, 85)
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Converting</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="10">
+               <spacer name="horizontalSpacer_7">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="6">
+               <widget class="QPushButton" name="video_converter_add_file">
+                <property name="maximumSize">
+                 <size>
+                  <width>140</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+  margin:0 0 0 0;
+background-color: rgba(15, 7, 44, 0.1);
+border: 1px  solid rgb(26, 109, 255, 0.9);
+border-radius: 4px;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.3);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Add Video File</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/add_file_convereter.png</normaloff>qrc/add_file_convereter.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>25</width>
+                  <height>25</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="14">
+               <widget class="QPushButton" name="run_con_video">
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton {
+background-color: rgba(15, 7, 44, 0.1);
+border: 1px  solid rgba(26, 109, 255, 0.9);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  margin:0 0 0 0;
+border-radius: 4px;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.3);
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>qrc/start.png</normaloff>qrc/start.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>40</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QListWidget" name="finished_video_list">
+             <property name="styleSheet">
+              <string notr="true">border:none;
+border-top:1px solid rgb(179, 179, 179);
+border-bottom:1px solid rgb(179, 179, 179);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

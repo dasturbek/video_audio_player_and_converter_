@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>74</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border:none</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="2" column="2">
+       <widget class="QLabel" name="con_format">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string>avi</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="QLabel" name="result">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string>FINISHED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="format_6">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string>Convert to:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLabel" name="size">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string>0.5Mb</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="format_5">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string>Orginal:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>82</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="0" rowspan="3">
+       <widget class="QLabel" name="music_img">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">margin: 5px;
+background-color: rgba(255, 255, 255, 0);
+border:none
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>qrc/video.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="format">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string>mp4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="7">
+       <widget class="QPushButton" name="name">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Play</string>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: left;
+  font-size: 18px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover {
+  color: rgba(255, 37, 66, 0.7);
+}</string>
+        </property>
+        <property name="text">
+         <string>Serhat Durmus hislerim</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>qrc/play.png</normaloff>qrc/play.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8" rowspan="3">
+       <widget class="QPushButton" name="video_converter_setting">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Video convert setting</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  margin:0 0 0 0;
+}
+.QPushButton:hover {
+background-color: rgba(15, 7, 44, 0.2);
+border-radius: 20px
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>qrc/settings.png</normaloff>qrc/settings.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9" rowspan="3">
+       <widget class="QPushButton" name="close">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Remove Item</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #1A6DFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  margin:0 0 0 0;
+}
+
+.QPushButton:hover {
+  background-color: rgba(255, 37, 66, 0.5);
+	border-radius: 20px
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>qrc/close.png</normaloff>qrc/close.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="w_h_size">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="con_w_h_size">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QLabel" name="con_fps">
+        <property name="styleSheet">
+         <string notr="true">  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px 10px 2px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
