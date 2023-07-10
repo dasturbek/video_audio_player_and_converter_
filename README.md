@@ -1,4 +1,4 @@
-<p align="center" font-size:55px> Video-audio Player and Converter</p>
+<p align="center" size=55px Video-audio Player and Converter</p>
 <div align="center">
   <a href="#">
   	<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy-downsized.gif" alt="Logo project" height="160" />
