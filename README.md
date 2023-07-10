@@ -1,4 +1,4 @@
-# video_audio_player_and_converter
+<p style = "text-align:center"> video_audio_player_and_converter</p>
 <div align="center">
   <a href="#">
   	<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy-downsized.gif" alt="Logo project" height="160" />
